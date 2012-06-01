@@ -1,3 +1,14 @@
+Revision history for Term-ReadLine-Bender
+
+0.07 Fri Jun 1 2012
+   Forked from Term::ReadLine::Zoid to Term::ReadLine::Bender
+   Maintainer switched to Eric Waters <ewaters@gmail.com>
+   - Attribs->{lines_preprocess_function} is called before print
+     This is most useful for coloring the output
+   - Allow Attribs->{RPS1} to be a subroutine for dynamic right handed
+     PS1 (i.e., timestamp)
+   - Allow ISearch to be exited by Ctrl-C even if locked
+
 Revision history for Term-ReadLine-Zoid - another ReadLine package
 
 0.07 Mon Nov 22 2004
